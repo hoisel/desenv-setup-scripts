@@ -16,64 +16,63 @@ cinst visualstudio2013Ultimate -force
 
 # Visual studio add-ins and stuff
 cinst xUnit.vs2012 -force
-cinstm WebEssentials2012 -force
-cinstm resharper -force -Version 7.1.3000.2254 # Use only resharper if you want the latests. This is what I have a license for
-cinstm typescript -force
-cinstm typescript.vs -force
-cinstm SpecFlow -force
-cinstm resharper-nuget -force # makes resharper invoke NuGet when adding reference to an assembly in a NuGet package
-cinstm AnkhSvn -force # Subversion Source Control Provider
+cinst WebEssentials2012 -force
+cinst resharper -force -Version 7.1.3000.2254 # Use only resharper if you want the latests. This is what I have a license for
+cinst typescript -force
+cinst typescript.vs -force
+cinst SpecFlow -force
+cinst resharper-nuget -force # makes resharper invoke NuGet when adding reference to an assembly in a NuGet package
+cinst AnkhSvn -force # Subversion Source Control Provider
 
 # Browsers
-cinstm Firefox -force
-cinstm GoogleChrome.Canary -force
+cinst Firefox -force
+cinst GoogleChrome.Canary -force
 # Extensions that I liked
 cinst EthanBrown.ChromeCanaryDevExtensions -force
 
 # Tools
-cinstm nunit -force
-cinstm aspnetmvc -force
-cinstm fiddler4 -force
-cinstm linqpad4 -force
-cinstm expresso -force
-cinstm curl -force
-cinstm MetroStudio -force # Metro Studio - advanced icon editor
-cinstm sysinternals -force
-cinstm cyg-get -force # utility to install Cygwin packages and dependencies
-cinstm winrar -force
-cinstm winmerge -force
-cinstm windbg -force
-cinstm logparser -force
-
+cinst nunit -force
+cinst aspnetmvc -force
+cinst fiddler4 -force
+cinst linqpad4 -force
+cinst expresso -force
+cinst curl -force
+cinst MetroStudio -force # Metro Studio - advanced icon editor
+cinst sysinternals -force
+cinst cyg-get -force # utility to install Cygwin packages and dependencies
+cinst winrar -force
+cinst winmerge -force
+cinst windbg -force
+cinst logparser -force
 # Utilities
-cinstm ccleaner -force
-cinstm paint.net -force
-cinstm 7zip -force
-cinstm tortoisesvn -force -Version 1.7.12 # I need this specific version.. don't ask why
-cinstm git -force
-cinstm gitextensions -force
-cinstm githubforwindows -force
-cinstm ilspy -force 
-cinstm dotpeek -force
-cinstm putty -force
+cinst ccleaner -force
+cinst paint.net -force
+cinst 7zip -force
+cinst tortoisesvn -force -Version 1.7.12 # I need this specific version.. don't ask why
+cinst git -force
+cinst gitextensions -force
+cinst githubforwindows -force
+cinst ilspy -force 
+cinst dotpeek -force
+cinst putty -force
 
-cinstm virtualbox -force
-cinstm sourcecodepro -force
+cinst virtualbox -force
+cinst sourcecodepro -force
 
-cinstm conemu -force # ConEmu, it's better then Console2
-cinstm Far -force
-cinstm EthanBrown.ConEmuConfig -force # Some config to ConEmu
-cinstm filezilla -force
+cinst conemu -force # ConEmu, it's better then Console2
+cinst Far -force
+cinst EthanBrown.ConEmuConfig -force # Some config to ConEmu
+cinst filezilla -force
 
 #Cloud Storage
-cinstm dropbox -force
-cinstm googledrive -force
-cinstm skydrive -force
+cinst dropbox -force
+cinst googledrive -force
+cinst skydrive -force
 
-cinstm sublimetext3 -force    # SublimeText
+cinst sublimetext3 -force    # SublimeText
 cinst SublimeText3.PackageControl -Pre -force
-cinstm TotalCommander -force
-cinstm adobereader -force		# Adobe Reader
+cinst TotalCommander -force
+cinst adobereader -force		# Adobe Reader
 
 # IM
 cinst skype -force

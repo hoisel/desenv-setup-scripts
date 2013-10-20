@@ -65,14 +65,13 @@ cinst EthanBrown.ConEmuConfig -force # Some config to ConEmu
 cinst filezilla -force
 
 #Cloud Storage
-cinst dropbox -force
-cinst googledrive -force
 cinst skydrive -force
 
 cinst sublimetext3 -force    # SublimeText
 cinst SublimeText3.PackageControl -Pre -force
 cinst TotalCommander -force
 cinst adobereader -force		# Adobe Reader
+cinst EthanBrown.DevTools.Web
 
 # IM
 cinst skype -force

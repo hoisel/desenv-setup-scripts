@@ -1,10 +1,10 @@
 # directories and link to scripts archive
-$archiveSource = "https://github.com/$user/devenv-setup-scripts/archive/$branch.zip"
-$tempDir = Join-Path $env:TEMP "devenv-setup-scripts"
+$archiveSource = "https://github.com/$user/desenv-setup-scripts/archive/$branch.zip"
+$tempDir = Join-Path $env:TEMP "desenv-setup-scripts"
 
 $tempDirExists = Test-Path $tempDir
 if(!$tempDirExists) { New-Item -ItemType directory -Path $tempDir }
-$archiveDest = Join-Path $tempDir "devenv-setup-scripts.zip"
+$archiveDest = Join-Path $tempDir "desenv-setup-scripts.zip"
 
 # download $branch branch to temp folder
 Write-Host "Downloading zipped $branch from $archiveSource to $archiveDest ..."
@@ -23,7 +23,7 @@ $extractToFolder = $shell.NameSpace($tempDir)
 $extractToFolder.copyHere($zip.Items(), 16)
 
 # start installation process
-$scriptsFolder = Join-Path $tempDir "devenv-setup-scripts-$branch"
+$scriptsFolder = Join-Path $tempDir "desenv-setup-scripts-$branch"
 $run_install_script = Join-Path $scriptsFolder "run-install.ps1"
 
 & $run_install_script $scriptsFolder

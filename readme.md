@@ -2,7 +2,7 @@
 
 To start installation process copy and paste following string to command prompt:
 
->@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ('$user=\"manekovskiy\";$branch=\"master\";(new-object net.webclient).DownloadFile(\"https://raw.github.com/$user/devenv-setup-scripts/$branch/install.ps1\", \"$env:TEMP\install.ps1\");& $env:TEMP\install.ps1 $user $branch')"
+>@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ('$user=\"nicolastarzia\";$branch=\"master\";(new-object net.webclient).DownloadFile(\"https://raw.github.com/$user/desenv-setup-scripts/$branch/install.ps1\", \"$env:TEMP\install.ps1\");& $env:TEMP\install.ps1 $user $branch')"
 
 This powershell one-liner consists of three parts:
 

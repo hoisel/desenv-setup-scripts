@@ -6,76 +6,76 @@ $chocolateyInstallScript = Join-Path $scriptsFolder "install-chocolatey.cmd"
 
 
 # Framework
-cinstm ruby
-cinstm python
-cinstm nodejs.install
+cinst ruby -force
+cinst python -force
+cinst nodejs.install -force
 
 # Visual Studio and extensions
-cinstm VisualStudio2012Ultimate
-cinstm visualstudio2013Ultimate
+cinst VisualStudio2012Ultimate -force
+cinst visualstudio2013Ultimate -force
 
 # Visual studio add-ins and stuff
-cinstm xUnit.vs2012
-cinstm WebEssentials2012
-cinstm resharper -Version 7.1.3000.2254 # Use only resharper if you want the latests. This is what I have a license for
-cinstm typescript
-cinstm typescript.vs
-cinstm SpecFlow
-cinstm resharper-nuget # makes resharper invoke NuGet when adding reference to an assembly in a NuGet package
-cinstm AnkhSvn # Subversion Source Control Provider
+cinst xUnit.vs2012 -force
+cinstm WebEssentials2012 -force
+cinstm resharper -force -Version 7.1.3000.2254 # Use only resharper if you want the latests. This is what I have a license for
+cinstm typescript -force
+cinstm typescript.vs -force
+cinstm SpecFlow -force
+cinstm resharper-nuget -force # makes resharper invoke NuGet when adding reference to an assembly in a NuGet package
+cinstm AnkhSvn -force # Subversion Source Control Provider
 
 # Browsers
-cinstm Firefox
-cinstm GoogleChrome.Canary
+cinstm Firefox -force
+cinstm GoogleChrome.Canary -force
 # Extensions that I liked
-cinst EthanBrown.ChromeCanaryDevExtensions
+cinst EthanBrown.ChromeCanaryDevExtensions -force
 
 # Tools
-cinstm nunit
-cinstm aspnetmvc
-cinstm fiddler4
-cinstm linqpad4
-cinstm expresso
-cinstm curl
-cinstm MetroStudio # Metro Studio - advanced icon editor
-cinstm sysinternals
-cinstm cyg-get # utility to install Cygwin packages and dependencies
-cinstm winrar
-cinstm winmerge
-cinstm windbg
-cinstm logparser
+cinstm nunit -force
+cinstm aspnetmvc -force
+cinstm fiddler4 -force
+cinstm linqpad4 -force
+cinstm expresso -force
+cinstm curl -force
+cinstm MetroStudio -force # Metro Studio - advanced icon editor
+cinstm sysinternals -force
+cinstm cyg-get -force # utility to install Cygwin packages and dependencies
+cinstm winrar -force
+cinstm winmerge -force
+cinstm windbg -force
+cinstm logparser -force
 
 # Utilities
-cinstm ccleaner
-cinstm paint.net
-cinstm 7zip
-cinstm tortoisesvn -Version 1.7.12 # I need this specific version.. don't ask why
-cinstm git
-cinstm gitextensions
-cinstm githubforwindows
-cinstm ilspy
-cinstm dotpeek
-cinstm putty
+cinstm ccleaner -force
+cinstm paint.net -force
+cinstm 7zip -force
+cinstm tortoisesvn -force -Version 1.7.12 # I need this specific version.. don't ask why
+cinstm git -force
+cinstm gitextensions -force
+cinstm githubforwindows -force
+cinstm ilspy -force 
+cinstm dotpeek -force
+cinstm putty -force
 
-cinstm virtualbox
-cinstm sourcecodepro
+cinstm virtualbox -force
+cinstm sourcecodepro -force
 
-cinstm conemu # ConEmu, it's better then Console2
-cinstm Far
-cinstm EthanBrown.ConEmuConfig # Some config to ConEmu
-cinstm filezilla
+cinstm conemu -force # ConEmu, it's better then Console2
+cinstm Far -force
+cinstm EthanBrown.ConEmuConfig -force # Some config to ConEmu
+cinstm filezilla -force
 
 #Cloud Storage
-cinstm dropbox
-cinstm googledrive
-cinstm skydrive
+cinstm dropbox -force
+cinstm googledrive -force
+cinstm skydrive -force
 
-cinstm sublimetext3    # SublimeText
-cinst SublimeText3.PackageControl -Pre
-cinstm TotalCommander
-cinstm adobereader		# Adobe Reader
+cinstm sublimetext3 -force    # SublimeText
+cinst SublimeText3.PackageControl -Pre -force
+cinstm TotalCommander -force
+cinstm adobereader -force		# Adobe Reader
 
 # IM
-cinstm skype
+cinst skype -force
 
 

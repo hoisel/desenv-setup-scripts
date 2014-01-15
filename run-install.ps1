@@ -45,6 +45,7 @@ cinst winmerge -force
 cinst windbg -force
 cinst logparser -force
 # Utilities
+cinst PDFCreator -force
 cinst ccleaner -force
 cinst paint.net -force
 cinst 7zip -force

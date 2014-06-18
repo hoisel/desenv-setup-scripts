@@ -9,7 +9,7 @@ cinst nodejs.install -force
 
 # Browsers
 cinst Firefox -force
-cinst GoogleChrome.Canary -force
+cinst GoogleChrome -force
 
 # Utilitários
 cinst linqpad4 -force
